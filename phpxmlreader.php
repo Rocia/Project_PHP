@@ -23,3 +23,7 @@ foreach($xml->children() as $child)
 
 </body>
 </html>
+
+
+
+<!-- reads note.xml-->
