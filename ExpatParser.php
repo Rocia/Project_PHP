@@ -59,3 +59,16 @@ xml_parser_free($parser);
 
 </body>
 </html>
+
+<!--
+Example explained:
+
+    Initialize the XML parser with the xml_parser_create() function
+    Create functions to use with the different event handlers
+    Add the xml_set_element_handler() function to specify which function will be executed when the parser encounters the opening and closing tags
+    Add the xml_set_character_data_handler() function to specify which function will execute when the parser encounters character data
+    Parse the file "note.xml" with the xml_parse() function
+    In case of an error, add xml_error_string() function to convert an XML error to a textual description
+    Call the xml_parser_free() function to release the memory allocated with the xml_parser_create() function
+
+-->
